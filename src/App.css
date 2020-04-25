@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:600,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Nunito, Roboto, Arial, sans-serif;
+  background: #4d6fe5;
+  height: 100vh;
+  color:#fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.Form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width:70%;
+  background-color: #6381e8;
+  padding:1rem;
+  border-radius: 10px;
+}
+
+.form-data > input, .form-data > textarea{
+  border: 0;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 1rem;
+  font-family: Nunito, sans-serif;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(221, 220, 220);
+}
+
+.form-data {
+  display:flex;
+  flex-direction: column;
+  margin:0.5rem;
+}
+
+label {
+  margin-bottom: 0.3rem;
+  font-size:2rem;
+}
+
+input, textarea {
+  border: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  padding: 15px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Nunito, sans-serif;
+  background: #6381e8;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.13);
+  transition: all 0.2s ease;
+}
+
+input:hover , textarea:hover{
+  background: #4468e4;
+}
+
+input[type='submit'] {
+  background:#fff;
+  color:#6381e8;
+}
+
+input[type='submit']:hover {
+  background:#4468e4;
+  color: #fff;
+}
